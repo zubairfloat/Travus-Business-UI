@@ -1,0 +1,39 @@
+.venueSelect h3 {
+  font-weight: 700;
+  color: #6e6e6e;
+}
+.venueSelect {
+  padding: 20px 0px 30px 0px;
+}
+.tripPlanLocationBtnDiv{
+  padding: 0px 0px 30px 0px;
+}
+.selectPlan{
+  background-color: #F0F1F2;
+  margin: 0px 70px 0px 70px;
+}
+.planDateBtn{
+  padding: 20px 0px 0px 0px;
+}
+.container {
+  text-align: -webkit-center;
+  text-align: center;
+}
+.RangeExample {
+  display: inline-grid;
+}
+
+@media screen and (max-width: 766px) {
+  .venueSelect h1 {
+    font-size: 22px;
+  }
+  .selectPlan{
+    margin: 0px;
+  }
+  .tripPlanLocationBtnDiv{
+    padding: 20px 0px 20px 0px;
+  }
+  .venueSelect {
+    padding: 0px 0px 0px 0px;
+  }
+}

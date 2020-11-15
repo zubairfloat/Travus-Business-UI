@@ -1,0 +1,117 @@
+.viewProfileHeading {
+  margin-bottom: 20px;
+  color: #6e6e6e;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px 30px 0px;
+}
+.viewProfileButton{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px 0px 0px;
+}
+.viewProfile {
+  margin: 0px 70px;
+  background-color: #f0f1f2;
+  padding: 0px 0px 30px 0px;
+}
+.viewProfile h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 32px;
+  color: #6e6e6e;
+}
+.submitAdminView {
+  background-color: #6e6e6e;
+  width: 200px;
+  height: 180px;
+  background: transparent linear-gradient(133deg, #183c77 0%, #36889c 100%) 0% 0% no-repeat
+    padding-box;
+  border-radius: 15px;
+  opacity: 1;
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(14px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.companyViewDetail {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.companyViewInfo {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+}
+.viewDetail {
+  background-color: white;
+  padding: 60px 0px 80px 0px;
+  margin: 0px 60px 20px 60px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 6px #dadada;
+}
+.viewDetail h3 {
+  font-size: 2vw;
+  color: #6e6e6e;
+  opacity: 0.8;
+}
+.viewDetail h1 {
+  font-size: 2vw;
+  font-weight: 900;
+  color: #6e6e6e;
+}
+.searchHeadingCompany {
+  text-align: center;
+}
+.searchHeadingCompany h1 {
+  color: #6e6e6e;
+}
+.searchHeadingView {
+  margin-bottom: 20px;
+  color: #6e6e6e;
+  display: flex;
+  justify-content: center;
+}
+.searchHeadingView img {
+  width: 300px;
+  height: 300px;
+}
+.rowPicPadding input {
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  color: #666666;
+  padding: 0px;
+  font-weight: 500;
+}
+.submitUpdateDiv{
+  background-color: #F0F1F2;
+  padding: 40px 50px 40px 50px;
+}
+.profilePicDiv{
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 20px 0px;
+}
+@media screen and (max-width: 766px) {
+  .viewProfile {
+    margin: 0px;
+    padding: 0px 0px 30px 0px;
+  }
+  .viewDetail h3 {
+    font-size: 6vw;
+    text-align: center;
+  }
+  .viewDetail h1 {
+    font-size: 6vw;
+    text-align: center;
+  }
+  .viewDetail {
+    margin: 0px 20px 0px 20px;
+  }
+}

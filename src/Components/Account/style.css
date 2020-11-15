@@ -1,0 +1,262 @@
+.headingSearch {
+  text-align: center;
+}
+.headingSearch h1 {
+  border-bottom: 1px solid black;
+}
+.searchHeading {
+  margin-bottom: 20px;
+  color: #6e6e6e;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px 0px 0px;
+}
+.submitAdmin {
+  background-color: #302d2d;
+  width: 100%;
+  /* height: 240px; */
+  background: transparent linear-gradient(133deg, #183c77 0%, #36889c 100%) 0% 0% no-repeat
+    padding-box;
+  border-radius: 15px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px #aaa;
+}
+.submitIconUser {
+  color: white;
+  width: 80px;
+  height: 80px;
+  margin: 60px;
+}
+
+.insideSearch {
+  width: 600px;
+  text-align: center;
+  padding: 30px 0px 10px 0px;
+  border-bottom: 3px solid #ddceb6;
+  margin-bottom: 30px;
+}
+.insideSearch h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.searchItems {
+  background-color: white;
+  padding: 60px 0px 80px 0px;
+  margin: 0px 60px 20px 60px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 6px #dadada;
+}
+/* .searchItems h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 20px 0px 0px 30px;
+  color: #6c757d;
+  font-weight: 700;
+  font-family: sans-serif;
+} */
+.searchSignHere {
+  padding: 26px 0px 16px 30px;
+}
+.searchItems h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #6c757d;
+  font-family: sans-serif;
+  padding: 0px 30px 0px 0px;
+}
+.searchItems h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6c757d;
+  font-family: sans-serif;
+}
+.rowPadding {
+  padding: 0px 0px 20px 0px;
+}
+.rowPadding input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ccc;
+  opacity: 1;
+}
+.rowPadding input {
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  color: #666666;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.accountPage {
+  background-color: #f0f1f2;
+  padding: 0px 0px 12px 0px;
+}
+.accountDiv {
+  padding: 0px 70px 0px 70px;
+}
+.acountSubmit {
+  padding: 50px 60px 30px 60px;
+}
+.forpad h3 {
+  padding: 20px 20px 0px 0px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+.forpad h4 {
+  padding: 20px 0px 0px 10px;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+.submitAcountBtn {
+  font-size: 16px;
+  border-radius: 18px;
+  width: 180px;
+  background: #4e7e7c;
+  color: #fff;
+}
+.rowPaddingBtn {
+  padding: 80px 0px 0px 30px;
+}
+.acountBtnDiv {
+  padding: 30px 0px 0px 20px;
+}
+.imageRow {
+  padding: 30px 0px;
+}
+.sumbitText h4 {
+  font-size: 12px;
+  font-weight: 600;
+  font: Regular 14px/24px Acumin Pro;
+  letter-spacing: 0;
+  color: #6e6e6e;
+  opacity: 1;
+  padding: 10px 0px 10px 0px;
+}
+.sumbitText {
+  padding: 20px 0px 80px 0px;
+  background-color: #f0f1f2;
+}
+.sumbitText input {
+  width: 20px;
+  height: 20px;
+}
+.submitMainDiv {
+  padding: 0px 70px;
+}
+.submitBtnDiv {
+  padding: 40px 0px 0px 50px;
+}
+.submitProfileText h1 {
+  font-size: 30px;
+  padding: 0px 0px 0px 20px;
+  font-weight: bold;
+}
+.submitProfileText p {
+  font-size: 16px;
+  padding: 0px 0px 0px 20px;
+  color: #6e6e6e;
+  letter-spacing: 0px;
+}
+.accountSearchBtn {
+  width: 180px;
+  font-size: 16px;
+  border-radius: 18px;
+  background: #4e7e7c;
+  color: #fff;
+  margin: auto;
+}
+.searchColAccount {
+  padding: 0px 0px 0px 80px;
+}
+.btnSignupRow {
+  padding: 70px 0px 0px 0px;
+}
+.btnSignup {
+  border-radius: 10px;
+}
+.submitAccontBtn {
+  text-align: center;
+}
+.claimSignText{
+  cursor: pointer;
+}
+
+.inputSearchAccount::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: Sans-serif;
+  font-size: 16px;
+  color: #666666;
+  opacity: 1;
+}
+.css-yk16xz-control {
+  width: 100%;
+  height: 44px !important;
+  border-radius: 8px !important;
+}
+.inputSearchAccount {
+  width: 100%;
+  border-radius: 16px !important;
+}
+.submitInputDiv {
+  width: 85%;
+  padding: 0px 0px 0px 40px;
+}
+/*........media Query */
+@media screen and (max-width: 766px) {
+  .submitInputDiv {
+    width: 100%;
+  }
+  .accountDiv {
+    padding: 0px;
+  }
+  .searchItems {
+    padding: 20px 30px 0px 30px;
+    margin: 0px 10px 0px 10px;
+  }
+  .inputSearchAccount {
+    padding: 0px 0px 20px 0px !important;
+  }
+  .accountSearchBtn {
+    font-size: 12px;
+  }
+  .acountSubmit {
+    padding: 20px 20px 20px 20px;
+  }
+  .btnClaimRow {
+    padding: 0px 0px 10px 0px;
+  }
+  .submitIconUser {
+    width: 50px;
+    height: 50px;
+  }
+  .btnSignupRow {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 1198px) {
+  .inputSearchAccount {
+    padding: 0px 100px 20px 100px;
+  }
+}
+.results-container {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.result-items {
+  position: relative;
+  border: 1px solid #898989;
+  text-align: center;
+  min-width: 200px;
+  text-decoration: none;
+}
+

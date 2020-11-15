@@ -1,0 +1,7 @@
+.buttonCustom {
+  border-radius: 18px;
+  width: 180px;
+  height: 40px;
+  box-shadow: 0px 3px 10px #0000001c !important;
+  background: #4e7e7c 0% 0% no-repeat padding-box !important;
+}

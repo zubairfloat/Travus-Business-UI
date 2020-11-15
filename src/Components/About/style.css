@@ -1,0 +1,64 @@
+.aboutheading {
+  width: 700px;
+  text-align: center;
+  padding: 30px 0px 8px 0px;
+  border-bottom: 3px solid #ddceb6;
+}
+.aboutheading h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+.about{
+  background-color: #F0F1F2;
+  margin: 0px 70px 0px 70px;
+}
+.aboutHeadP h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #6e6e6e;
+  width: 43%;
+}
+.aboutHeadP {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px 70px 0px;
+}
+.aboutHeadClick h2 {
+  text-align: center;
+  font-size: 20px;
+  color: #6e6e6e;
+  width: 62%;
+  letter-spacing: 0.5px;
+}
+.aboutHeadClick {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 40px 0px;
+}
+.aboutReadMore h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #6e6e6e;
+}
+.aboutReadMore {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 40px 0px;
+}
+
+/*.....Media Query.... */
+@media screen and (max-width: 766px) {
+  .about {
+    margin: 0px 0px;
+  }
+  .aboutHeadP h1 {
+    font-size: 14px;
+    width: 80%;
+  }
+  .aboutHeadClick h2 {
+    font-size: 12px;
+    color: #6e6e6e;
+    width: 80%;
+  }
+
+}

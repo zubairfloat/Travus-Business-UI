@@ -1,0 +1,275 @@
+.planHeadCity {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px 0px 0px;
+}
+.planHeadCity h4 {
+  font-size: 30px;
+  color: #6e6e6e;
+  letter-spacing: 0px;
+}
+.planHeadCity h5 {
+  font-size: 30px;
+  color: #6e6e6e;
+  letter-spacing: 0px;
+}
+.planHeadCity input {
+  border-radius: 10px;
+  width: 35%;
+  padding: 10px;
+  height: 40px;
+  border: 2px #608b89 solid;
+  text-align: center;
+  font-family: FontAwesome;
+  background-color: #f4f6f8;
+}
+.planHead {
+  padding: 0px 0px 40px 0px;
+}
+.plan {
+  margin: 0px 70px;
+  background-color: #f0f1f2;
+}
+.mapDiv {
+  display: flex;
+  justify-content: center;
+}
+.myMapDiv {
+  padding: 20px 170px 20px 170px;
+}
+.myReactMap {
+  box-shadow: 1px 5px 7px #dadada;
+}
+.locationHead {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.location {
+  background-color: white;
+  padding: 20px 0px 0px 0px;
+}
+.locationHeadDiv {
+  border-bottom: 3px #ebe3d5 solid;
+  color: #6e6e6e;
+  width: 70%;
+}
+.locationHead h4 {
+  font-size: 12px;
+  color: #404040;
+  padding: 20px 0px 0px 0px;
+  opacity: 0.6;
+}
+.locationScrool {
+  height: 600px;
+  overflow: scroll;
+  width: 100%;
+  overflow-x: hidden;
+  text-align: left;
+}
+.locationScrool h3 {
+  font-size: 20px;
+  color: #707070;
+  padding: 15px 0px 15px 50px;
+  opacity: 0.7;
+}
+.locationScroolDiv {
+  padding: 0px 20px 10px 20px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.activity {
+  height: 700px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.activityCard {
+  background-color: white;
+  width: 100%;
+  height: 210px;
+  margin: 0px 0px 20px 0px;
+}
+.activityCardDay {
+  width: 140px;
+  height: 210px;
+  display: flex;
+  align-items: center;
+  border-right: #6e6e6e 2px solid;
+  padding: 0px 0px 0px 30px;
+}
+.activityCardDay h1 {
+  transform: rotate(270deg);
+  font-size: 34px;
+  color: #6e6e6e;
+}
+.activityIconsSize{
+  width: 25px;
+  height: 25px;
+  color: #6E6E6E;
+}
+.activityIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 210px;
+  padding: 0px 30px 0px 30px;
+}
+.activityIconsTime {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 210px;
+  padding: 5px 30px 5px 0px;
+}
+
+.activityIcons h3 {
+  font-size: 24px;
+  color: #7f7f7f;
+}
+.activityIconsTime h3 {
+  font-size: 24px;
+  color: #7f7f7f;
+}
+.activityText h3 {
+  font-size: 16px;
+  color: #7f7f7f;
+  margin: 0px;
+}
+.activityText h5 {
+  font-size: 10px;
+  color: #6e6e6e;
+  opacity: 0.7;
+}
+.activityTextDiv {
+  padding: 10px 0px 0px 0px;
+  min-height: 200px;
+  text-align: left;
+}
+.exportBtn {
+  margin: 25px;
+  padding-bottom: 20px;
+}
+
+.activityTextDiv h3 {
+  font-size: 18px;
+  color: #7f7f7f;
+  height: 30px;
+  white-space: nowrap;
+  width: 152px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/*...........Media Query  */
+@media screen and (max-width: 1200px) {
+  
+  .activityCardDay {
+    width: 30vw;
+  }
+  .activityIconsTime {
+    padding: 5px 40px 5px 0px;
+  }
+  
+  .activityText h3 {
+    font-size: 12px;
+  }
+  .activityText h5 {
+    font-size: 6px;
+    padding: 5px 0px;
+  }
+  .activityIcons h3 {
+    font-size: 12px;
+    color: #7f7f7f;
+  }
+  .activityIcons {
+    padding: 0px 40px 0px 40px;
+  }
+  .location {
+    margin-bottom: 15px;
+  }
+}
+/*...........Media Query  */
+@media screen and (max-width: 766px) {
+  .plan {
+    margin: 0px 0px;
+  }
+  .activityCardDay {
+    width: 20vw;
+  }
+  .activityCardDay h1 {
+    transform: rotate(270deg);
+    font-size: 14px;
+    color: #6e6e6e;
+  }
+  .activityIcons h3 {
+    font-size: 12px;
+    color: #7f7f7f;
+  }
+  .activityIcons {
+    padding: 0px 30px 0px 30px;
+  }
+  .activityText h3 {
+    font-size: 12px;
+    color: #7f7f7f;
+    margin: 0px;
+    padding: 7px 0px 0px 0px;
+  }
+  .activityText h5 {
+    font-size: 5px;
+    color: #6e6e6e;
+    opacity: 0.7;
+    padding: 3px 0px !important;
+  }
+  .locationScrool h3 {
+    font-size: 13px;
+    color: #707070;
+    opacity: 0.7;
+  }
+  .myMapDiv {
+    padding: 20px 20px 20px 20px;
+  }
+  .location {
+    margin-bottom: 15px;
+  }
+  .activityTextDiv {
+    padding: 0px;
+    text-align: left;
+    width: 152px;
+    padding: 10px 0px 20px 0px;
+  }
+  .planHeadCity h4 {
+    font-size: 7vw;
+  }
+  .planHeadCity h5 {
+    font-size: 5vw;
+  }
+  .activityTextDiv h3 {
+    font-size: 14px;
+  }
+  .activityIconsTime h3 {
+    font-size: 14px;
+  }
+  .activityIconsSize{
+    width: 5vw;
+    height: 5vw;
+  }
+  .activityIconsTime {
+    padding: 2px 4vw 5px 0px;
+  }
+}
+
+@media screen and (max-width: 364px) {
+  .activityCardDay{
+    width: 60px;
+    padding: 0px 0px 0px 20px;
+  }
+  .activityIcons {
+    padding: 0px 10px 0px 10px;
+  }
+}

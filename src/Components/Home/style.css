@@ -1,0 +1,77 @@
+.home{
+  width: 100%;
+  height: 800px;
+}
+.header {
+  padding: 20px 40px;
+}
+.nav-item {
+  padding: 20px;
+}
+.homeSearchDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.homeSearchDiv .css-2b097c-container {
+  width: 50% !important;
+}
+.homeSearchDiv .css-1g6gooi {
+  color: white !important;
+  justify-content: center !important;
+}
+.searchInput .css-b8ldur-Input {
+  color: white !important;
+  justify-content: center !important;
+}
+.css-1hwfws3 {
+  justify-content: center;
+}
+.css-g1d714-ValueContainer {
+  justify-content: center;
+}
+.searchInput {
+  display: flex;
+  justify-content: center;
+}
+.search {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+.search p {
+  color: white;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1266px) {
+  .homeSearchDiv .css-2b097c-container {
+    width: 70% !important;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .navbar-collapse {
+    background: #1a383d;
+    z-index: 1;
+  }
+  .myNav {
+    padding: 0px !important;
+  }
+  .navbar-nav {
+    cursor: pointer;
+  }
+  .homeSearchDiv .css-2b097c-container {
+    width: 100% !important;
+  }
+  .searchInput .css-n4g97z-menu {
+    width: 90% !important;
+  }
+  .search {
+    width: 80%;
+  }
+  
+}

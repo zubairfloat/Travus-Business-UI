@@ -1,0 +1,23 @@
+.emailVerify{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #6E6E6E;
+}
+.inputVerifyCode{
+    padding: 0px 0px 40px 0px;
+}
+.inputVlaueReset input{
+  width: 46%;
+  border: none;
+  border-radius: 4px;
+  color: rgb(31, 29, 29);
+  background-color: #ddd2d2;
+  padding: 10px;
+  font-weight: 500;
+}
+.inputVlaueReset{
+    padding: 0px 0px 30px 0px;
+}
+.inputVlaueResetBtn{
+    padding: 0px 0px 20px 0px;
+}

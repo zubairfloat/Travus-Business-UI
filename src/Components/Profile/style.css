@@ -1,0 +1,403 @@
+.profileHeadImg {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.gridLoadingProfile {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 30px 0px;
+}
+.profileHead {
+  position: relative;
+}
+.profileHead img {
+  height: 100%;
+  width: 90%;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+}
+.profileHead h1 {
+  position: absolute;
+  width: 100%;
+  color: white;
+  margin: 0;
+  font-size: 5vw;
+  top: 50%;
+  font-weight: bold;
+}
+.profile {
+  background-color: #f0f1f2;
+  margin: 0px 70px;
+  padding: 0px 0px 30px 0px;
+}
+.profileabout {
+  background-color: white;
+  margin: 20px 70px;
+  border-radius: 30px;
+  padding: 80px 0px 50px 0px;
+}
+
+.profileabout h1 {
+  color: #6e6e6e;
+  font-size: 18px;
+}
+.Profileabout h2 {
+  color: #6e6e6e;
+  font-size: 16px;
+}
+.profileabout h3 {
+  color: #6e6e6e;
+  font-size: 14px;
+}
+.profileaboutH2 {
+  width: 100%;
+  padding: 25px 0px 45px 0px;
+}
+.profileAbout2Input input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 3px solid #6e6e6e;
+  width: 100%;
+  height: 12px;
+  font-size: 18px;
+  color: #6e6e6e;
+  font-weight: 400;
+}
+.profileAbout2Input p {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 3px solid #6e6e6e;
+  width: 100%;
+  height: 34px;
+  font-size: 18px;
+  color: #6e6e6e;
+  font-weight: 400;
+  display: inline-table;
+}
+.profileAbout2Input {
+  padding: 17px 0px 0px 17px;
+  width: 100%;
+}
+.aboutDivImg img {
+  width: 100%;
+  padding: 20px 0px 30px 0px;
+}
+.aboutDivImg h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #6e6e6e;
+  opacity: 0.9;
+  padding: 15px 0px 0px 20px;
+}
+.aboutDivImg h3 {
+  padding: 20px 0px 0px 10px;
+}
+.profileAboutHeart {
+  color: red;
+}
+.profileAboutCircle {
+  color: #30aaa580;
+}
+.slides {
+  position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.slides .slick-prev {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  color: black !important;
+  left: 3% !important;
+  z-index: 1;
+}
+.slides .slick-next {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  right: 3% !important;
+  z-index: 1;
+
+  color: black !important;
+}
+.slick-prev:before {
+  content: '←';
+  color: black !important;
+}
+.slick-next:before {
+  content: '←';
+  color: black !important;
+}
+.reviewCard {
+  background-color: white;
+  padding: 20px 10px 10px 20px;
+  margin: 0px 0px;
+}
+.reviewCard h4 {
+  font-size: 10px;
+  color: #6e6e6e;
+}
+.reviewCard h1 {
+  color: #6e6e6e;
+  font-size: 2vw;
+  letter-spacing: 0px;
+}
+.reviewCard h3 {
+  color: #6e6e6e;
+  font-size: 18px;
+  letter-spacing: 0px;
+}
+.reviewCardTitleDiv {
+  height: 220px;
+  text-align: center;
+  padding: 70px 0px 90px 0px;
+}
+.reviewCardIconseDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.reviewUserIcon {
+  width: 20px;
+  height: 20px;
+}
+.review {
+  height: 500px;
+  padding: 30px 20px 0px 20px;
+}
+.dv-star-rating {
+  font-size: 50px !important ;
+}
+.slick-slide > div {
+  transform: scale(0.9);
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.slick-center > div {
+  transform: scale(1);
+}
+.reviewCardIconseStars {
+  color: #6e6e6e;
+  width: 2vw;
+  height: 2vw;
+}
+.featureDivBtn {
+  padding: 20px 0px 10px 0px;
+}
+.reviewBorder {
+  border-bottom: #6e6e6e 1px solid;
+}
+.modelReview {
+  width: 100%;
+}
+.modelProfileHeading {
+  margin-bottom: 50px;
+  color: #6e6e6e;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px 0px 0px;
+}
+.modelProfileInside {
+  width: 600px;
+  text-align: center;
+  padding: 30px 0px 20px 0px;
+  border-bottom: 2px solid #e9e0d1;
+}
+
+.write h2 {
+  font-size: 2vw;
+  color: #6e6e6e;
+  padding: 30px 0px 10px 0px;
+}
+.reviewNoReview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.reviewStarnonEdit {
+  font-size: 30px !important;
+  padding: 5px 0px 0px 10px;
+
+}
+.noReviewDiv {
+  width: 60%;
+  text-align: center;
+  color: #6e6e6e;
+  padding: 20px 0px 0px 0px;
+}
+.write h4 {
+  font-size: 2vw;
+  color: #6e6e6e;
+  padding: 0px 0px 35px 0px;
+}
+.write h3 {
+  font-size: 2vw;
+  color: #6e6e6e;
+  padding: 30px 0px 20px 0px;
+}
+.react-calendar__navigation button {
+  min-width: 0px !important;
+  background-color: #6e6e6e !important;
+  color: white;
+}
+.displayColumn {
+  padding: 0px 20px 0px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.displayColumn h4 {
+  font-size: 16px;
+  color: #6e6e6e;
+  padding: 10px 0px 0px 0px;
+}
+.inputWrite {
+  border: 3px #6e6e6e solid;
+}
+.modelCheckPolicy h3 {
+  font-size: 14px;
+  color: #6e6e6e;
+}
+.modelSubmitBtn {
+  width: 150px;
+  border-radius: 15px;
+}
+.displayColumn input {
+  width: 22px;
+  height: 22px;
+}
+.modelBottom {
+  padding: 0px 0px 40px 0px;
+}
+.modelStar {
+  width: 15px;
+  height: 15px;
+}
+.modelOutlineStar {
+  width: 30px;
+  height: 30px;
+  opacity: 0.5;
+}
+.displayColumnUpload h4 {
+  font-size: 16px;
+  color: #6e6e6e;
+  padding: 0px 0px 20px 0px;
+}
+.featureInBtn{
+  background-color: #4e7e7c !important;
+  border: 1px #4e7e7c !important;
+}
+.profileAboutMapDiv{
+  padding: 20px 0px 0px 0px;
+}
+#map {
+  width: 500px;
+  height: 230px;
+}
+@media screen and (max-width: 1500px) {
+  #map {
+    width: 400px;
+    height: 230px;
+  }
+}
+@media screen and (max-width: 1204px) {
+  .reviewCardIconseStars {
+    color: #6e6e6e;
+    width: 20px;
+    height: 20px;
+  }
+  .profileHead img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .profile {
+    background-color: #f0f1f2;
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+  }
+  .inputWrite {
+    width: 90%;
+  }
+  .write h4 {
+    font-size: 16px;
+  }
+  .write h2 {
+    font-size: 12px;
+  }
+  .displayColumn {
+    padding: 0px 0px 0px 20px;
+  }
+  .profileabout {
+    background-color: white;
+    margin: 0px 20px;
+    border-radius: 30px;
+    padding: 80px 0px 50px 0px;
+  }
+  .aboutDivImg {
+    padding: 30px 30px 0px 30px;
+  }
+  .reviewCard h3 {
+    font-size: 14px;
+  }
+  .profileaboutH2 {
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+  }
+  .profileAbout2Input {
+    width: 100%;
+  }
+  .noReviewDiv h2 {
+    font-size: 16px;
+  }
+  .noReviewDiv {
+    padding: 10px 0px 0px 0px;
+  }
+  .reviewStarnonEdit {
+    font-size: 18px !important;
+    padding: 15px 0px 0px 10px;
+  }
+  .writeReviewStarSelect {
+    font-size: 28px !important;
+  }
+  .displayColumn input {
+    width: 15px;
+    height: 15px;
+  }
+  .write {
+    padding: 0px 0px 0px 30xp;
+  }
+  .write h3 {
+    font-size: 14px;
+  }
+  .displayColumn h4 {
+    font-size: 9px;
+  }
+  .profileHead img {
+    height: 260px;
+  }
+  .featureDivBtn {
+    padding: 20px 0px 30px 0px;
+  }
+  #map {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media screen and (min-width: 720px) {
+  .modal-dialog {
+    max-width: 1200px !important;
+    margin: 1.75rem auto;
+  }
+}
+@media screen and (max-width: 400px) {
+  .modal-dialog {
+    max-width: 500px !important;
+    margin: 1.75rem auto;
+  }
+}
+

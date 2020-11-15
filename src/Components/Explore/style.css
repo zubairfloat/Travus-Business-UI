@@ -1,0 +1,401 @@
+.tileWraperDiv{
+  object-fit: contain;
+  
+}
+.headExplore h2 {
+  font-size: 2vw;
+  text-align: center;
+  color: #666666;
+}
+.Select-input {
+  opacity: 0;
+}
+.exploreGrifNoBusiness{
+  font-size: 24px;
+  color: #bdb2b2;
+  text-align: center;
+}
+.cardExplore h4 {
+  font-size: 1vw;
+  padding: 0px 0px 50px 0px;
+  opacity: 0.8;
+  height: 20px;
+}
+.cardExplore h1 {
+  height: 80px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 0px 0px 0px;
+}
+.cardExplore {
+  box-shadow: 3px 2px 5px #d4d4d4;
+  cursor: pointer;
+}
+.slides .slick-prev {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  color: black !important;
+  left: 3% !important;
+  z-index: 1;
+}
+.slides .slick-next {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  right: 3% !important;
+  z-index: 1;
+  color: black !important;
+}
+.slick-prev:before {
+  content: '\2190';
+  color: black !important;
+}
+.slick-next:before {
+  content: ' \2192';
+  color: black !important;
+}
+.reviewSlide {
+  padding: 0px 80px 0px 80px;
+}
+.explore {
+  background-color: #f0f1f2;
+  margin: 0px 70px 0px 70px;
+}
+.MuiGridListTile-root{
+  height: 100% !important;
+}
+.MuiGridListTileBar-rootSubtitle{
+  height: 120px !important;
+}
+.MuiGridListTileBar-root{
+  background: rgba(41, 2, 2, 0.7) !important;
+}
+.exploreGllaryIcon {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.exploreGllaryIcon input {
+  width: 20px;
+  height: 20px;
+}
+.exploreGalleryHoverStar{
+  padding: 3px 0px 0px 20px;
+}
+.exploreGalleryHover{
+  padding: 3px 0px 0px 20px;
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
+.exploreGridHeart {
+  color: red;
+  font-size: 35px;
+  padding: 0px 10px 16px 0px;
+  z-index: 2;
+}
+.exploreGalleryHoverStar p{
+  padding: 5px 0px 0px 0px;
+}
+.exploreGalleryOpenNow p{
+  color: white;
+  font-size: 12px;
+}
+.exploreGridCircle {
+  color: #30aaa580;
+  font-size: 35px;
+  padding: 0px 10px 16px 0px;
+}
+.exploreGalleryStarsShow{
+  font-size: 26px !important;
+}
+.gallaryFlex {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 96px 50px 120px;
+}
+.iconsGallaryExplore {
+  width: 50px;
+  height: 50px;
+  opacity: 0.2;
+  cursor: pointer;
+}
+.iconsGallaryExploreDark {
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+  cursor: pointer;
+}
+.iconsGallaryView {
+  width: 40px;
+  height: 40px;
+  padding: 5px 0px 0px 0px;
+  opacity: 0.2;
+  cursor: pointer;
+}
+.iconsGallaryViewDark {
+  width: 40px;
+  height: 40px;
+  padding: 5px 0px 0px 0px;
+  opacity: 1;
+  cursor: pointer;
+}
+.MuiGridListTileBar-root {
+  opacity: 0 !important;
+}
+
+.exploreGalleryOpenNow{
+  padding: 78px 30px 0px 0px;
+}
+.MuiGridListTile-tile:hover .MuiGridListTileBar-root {
+  opacity: 1 !important;
+  transition: 0.7 !important;
+}
+.MuiGridListTile-tile {
+  cursor: pointer;
+}
+.MuiSvgIcon-root {
+  color: white;
+}
+.gridLoading {
+  display: flex;
+  justify-content: center;
+}
+.gridEffect {
+  transition: 0.5s linear;
+  overflow: scroll;
+}
+.galleryAdvanceLabel {
+  font-size: 16px;
+  font-weight: 500;
+  color: #666666;
+  padding: 9px 0px 0px 0px;
+  cursor: pointer;
+}
+
+
+.labelSearchGallery {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  padding: 10px 0px 0px 0px;
+  color: #666666;
+  left: 27px;
+}
+.inputSearchGallery {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 20%;
+  left: 10%;
+  color: #666666;
+}
+.galleryAdvanceInput {
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  border: solid 2px #bdb2b2;
+  padding: 10px;
+  background-color: #f0f1f2;
+  color: #666666;
+  background-color: #fff;
+}
+.galleryAdvanceInput::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #666666;
+  opacity: 1;
+}
+.gallaryCickAddition {
+  cursor: pointer;
+  height: 50px;
+  border: 2px solid #bdb2b2;
+  box-shadow: none;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+}
+.extraClass {
+  pointer-events: auto !important;
+  background-color: white !important;
+  opacity: 1 !important;
+  cursor: pointer;
+  box-shadow: 1px 5px 7px hsl(0, 1%, 20%);
+  padding: 0px 5px 0px 5px !important;
+}
+
+.extraClass:hover {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+.tooltipOpen {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: sans-serif;
+  border-bottom: 1px #ccc8c8 solid;
+  padding: 0px;
+  height: 40px;
+}
+.tooltipOpen:hover{
+  background-color: #F0F1F2;
+}
+.tooltipOpen h1 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #666666;
+}
+.tooltipSorted {
+  width: 220px;
+}
+.toolTipIcon {
+  width: 18px;
+  height: 18px;
+  color: #666666;
+}
+.addtionalFilterRow {
+  padding: 10px 0px 25px 0px;
+}
+#exploreMap {
+  width: 100%;
+  height: 80vh;
+}
+.exploreSaveLocationLoader{
+  position: absolute;
+  z-index: 1;
+}
+.exploreFilterDownBtn{
+  height: 35px;
+  width: 220px;
+  text-align: left;
+  padding: 0px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #666666;
+}
+.MuiGridListTile-imgFullWidth{
+  transform: translate(0%) !important;
+}
+.exploreToolTipDropDownMenu{
+  transform: translate3d(224px, 2px, 0px) !important;
+}
+/*......Media Query*/
+@media screen and (max-width: 1500px) {
+  .galleryAdvanceLabel {
+    padding: 9px 0px 0px 0px;
+  }
+  .labelSearchGallery {
+    padding: 10px 0px 0px 0px;
+    left: 22px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .galleryAdvanceLabel {
+    padding: 8px 0px 0px 0px;
+  }
+  .labelSearchGallery {
+    padding: 10px 0px 0px 0px;
+    left: 12px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .labelSearchGallery {
+    padding: 10px 0px 0px 0px;
+    left: 27px;
+  }
+  .addtionalFilterRow {
+    padding: 0px 50px 20px 50px;
+  }
+  .exploreGallerySearchCol{
+    width: 50%;
+
+  }
+  .explore {
+    margin: 0px;
+  }
+  .reviewSlide {
+    padding: 0px 30px 0px 30px;
+  }
+  .iconsGallaryExplore {
+    width: 15px;
+    height: 15px;
+    opacity: 0.2;
+    cursor: pointer;
+  }
+  .iconsGallaryExploreDark {
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+    cursor: pointer;
+  }
+  .exploreGllaryIcon h5 {
+    font-size: 10px;
+  }
+  .gallaryFlex {
+    padding: 30px 20px 50px 20px;
+  }
+  .cardExplore h4 {
+    font-size: 8px;
+  }
+  .cardExplore h1 {
+    font-size: 14px;
+  }
+  .headExplore h2 {
+    font-size: 16px;
+  }
+  .MuiSvgIcon-root {
+    width: 10px !important;
+    height: 10px !important;
+    color: blanchedalmond;
+  }
+  .MuiGridListTileBar-title {
+    font-size: 8px !important;
+  }
+  .MuiGridListTileBar-subtitle {
+    font-size: 8px !important;
+  }
+  .MuiIconButton-root {
+    padding: 0px !important;
+  }
+  .MuiGridListTileBar-titleWrap {
+    margin-left: 4px !important;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .exploreToolTipDropDownMenu{
+    transform: translate3d(-60px, 100px, 0px) !important;
+  }
+  .galleryAdvanceLabel {
+    font-size: 14px;
+    text-align: center;
+  }
+  .exploreGallerySearchCol{
+    padding: 0px 0px 15px 0px;
+    width: 90%;
+  }
+  .gallaryCickAddition {
+    width: 90%;
+    padding: 0px 0px 10px 0px;
+    border: 2px solid #bdb2b2;
+    box-shadow: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .text-center{
+    display: none;
+  }
+  .exploreCountrySelect{
+    padding: 20px 0px 10px 0px;
+    width: 90%;
+  }
+  .labelSearchGallery{
+    padding: 8px;
+    left: 22px;
+  }
+}

@@ -1,0 +1,39 @@
+.navbarTravus {
+  color: white;
+  font-size: 12px;
+}
+.signInModel{
+  width: 600px;
+  text-align: center;
+}
+ul {
+  /* margin-top: 0; */
+  margin-bottom: 1rem !important;
+}
+.navbar {
+  padding: 10px 70px 20px 70px !important;
+}
+.myNavbar {
+  background-position: center !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navIcon {
+  width: 52%;
+  height: 60%;
+}
+
+@media screen and (max-width: 576px) {
+  .signInModel{
+    width: 400px;
+    padding: 0px 20px 0px 10px;
+  }
+}
+@media screen and (max-width: 396px) {
+  .navbar {
+    padding: 20px 40px 10px 40px !important;
+  }
+  .signInModel{
+    width: 300px;
+  }
+}

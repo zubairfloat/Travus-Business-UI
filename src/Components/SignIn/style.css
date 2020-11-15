@@ -1,0 +1,103 @@
+.signInAuth {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px 30px 0px;
+}
+.signOut {
+  font-size: 16px;
+  color: #666666;
+}
+.signInAuthDiv {
+  text-align: center;
+  background-color: #fff;
+  width: 80%;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 1px 5px 7px #dadada;
+}
+.signInAuthDiv input {
+  border: 1px solid #eaeaea;
+}
+.signCreateAccount {
+  padding: 20px 0px 0px 0px;
+  color: #666666;
+}
+.authenticateLogin {
+  text-align: center;
+}
+.signCreateAccount h4 {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.loginBtnForm {
+  border-radius: 18px;
+  width: 100%;
+  box-shadow: 0px 3px 10px #0000001c !important;
+  background: #4e7e7c 0% 0% no-repeat padding-box !important;
+  margin: 0px 0px 10px 0px;
+  font-size: 20px;
+}
+.createAccountIcon {
+  width: 30px;
+  height: 30px;
+  padding: 0px 0px 0px 6px;
+}
+.forgotPasswordAuth {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px 30px 0px;
+  background-color: #f0f1f2;
+}
+.forgotPasswordAuthDiv {
+  width: 70%;
+  padding: 40px 15px 0px 15px;
+  height: 220px;
+  text-align: center;
+  box-shadow: 1px 5px 7px #dadada;
+}
+
+.rowPaddingLink {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loginAccountBtn {
+  width: 180px;
+  font-size: 16px;
+  border-radius: 18px;
+  background: #4e7e7c;
+  color: #fff;
+  margin: auto;
+}
+.verifyMessage{
+  color: #666666;
+}
+.verifyMessage h2{
+  color: green;
+  font-size: 12px;
+  text-align: center;
+  
+}
+@media screen and (max-width: 1280px) {
+  .signInAuthDiv {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .signInAuthDiv {
+    width: 80%;
+  }
+  
+  .loginBtnForm {
+    font-size: 12px;
+  }
+  .btnMailIcon {
+    font-size: 12px;
+  }
+  .forGotModel {
+    width: 90% !important;
+    padding: 0px 0px 0px 40px;
+  }
+}
+

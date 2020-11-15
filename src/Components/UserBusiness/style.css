@@ -1,0 +1,29 @@
+
+.businessShow th {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(19, 5, 5);
+}
+.businessShow td {
+  color: #6e6e6e;
+  font-size: 1vw;
+  font-weight: 700;
+}
+
+.businessShow {
+  padding: 0px 90px;
+  height: 500px;
+  overflow: scroll;
+}
+/*......Media Query*/
+@media screen and (max-width: 766px) {
+  .businessShow {
+    padding: 0px 10px;
+  }
+  .businessShow th {
+    font-size: 7px;
+  }
+  .businessShow td {
+    font-size: 5px;
+  }
+}

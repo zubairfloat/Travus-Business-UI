@@ -1,0 +1,138 @@
+.searchHeading {
+  margin-bottom: 20px;
+  color: #6e6e6e;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px 0px 0px;
+}
+.listedPageImg{
+  height: auto;
+  width: 300px;
+}
+.listHeadP h1 {
+  font-size: 2vw;
+  color: #6e6e6e;
+  letter-spacing: 0px;
+  text-align: center;
+  width: 56%;
+  padding: 10px 0px 20px 0px;
+}
+.listHeadP {
+  display: flex;
+  justify-content: center;
+}
+.listHeadClick h2 {
+  color: #4e7e7c;
+  font-size: 16px;
+}
+.listHeadClick {
+  display: flex;
+  justify-content: center;
+}
+
+.listContent h2 {
+  font-size: 30px;
+  color: #6e6e6e;
+  font-weight: bold;
+  padding: 120px 0px 60px 0px;
+}
+.listBtnInput input{
+  width: 0px !important;
+  height: 0px !important;
+
+}
+.listContent input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 3px solid #6e6e6e;
+  width: 100%;
+  height: 40px;
+  font-size: 28px;
+  color: #6e6e6e;
+  font-weight: 400;
+  height: 50px;
+}
+.listContent input::placeholder {
+  color: #6e6e6e;
+  font-size: 22px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+.getList {
+  background-color: #f0f1f2;
+  margin: 0px 70px;
+  padding: 0px 0px 30px 0px;
+}
+.contentLisInput {
+  height: 30px !important;
+  width: 30px !important;
+}
+.listContent h3 {
+  font-size: 14px;
+  color: #6e6e6e;
+  padding: 10px 20px 0px 20px;
+}
+.contentListInputDiv {
+  padding: 20px 0px 40px 20px;
+}
+.listedbottomBtn {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 30px 0px;
+}
+.listedbottomLoad {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 50px 0px;
+}
+#exampleSelect {
+  border: none !important;
+  border-bottom: 3px #6e6e6e solid !important;
+  background-color: #f0f1f2 !important;
+}
+.form-control {
+  font-size: 22px;
+  font-weight: 500;
+}
+.listInputUpload {
+  width: 0px !important;
+}
+.rowuploadimage {
+  margin: 60px 0px;
+}
+.listBusinessLoading{
+  display: flex;
+  justify-content: center;
+
+}
+/*..........Media Querry  */
+@media screen and (max-width: 766px) {
+  .getList {
+    margin: 0px;
+    padding: 0px 20px 0px 20px;
+  }
+  .listContent h3 {
+    font-size: 16px;
+    padding: 0px 5px 0px 5px;
+  }
+  .listedCheckApplyRow{
+    padding: 20px 0px 0px 0px;
+  }
+  .contentLisInput {
+    height: 20px !important;
+    width: 20px !important;
+  }
+  .listContent h2 {
+    padding: 80px 0px 60px 0px;
+  }
+  .listHeadP h1{
+    font-size: 12px;
+    width: 90%;
+  }
+  .listedPageImg{
+    height: auto;
+    width: 200px;
+  }
+}
+
